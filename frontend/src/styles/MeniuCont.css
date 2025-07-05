@@ -1,0 +1,89 @@
+.meniu-cont-container {
+  position: fixed;
+  top: 10px;
+  right: 14px;
+  z-index: 200;
+}
+
+.meniu-cont-button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 6px 22px 6px 18px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 54px;
+  min-height: 34px;
+  box-shadow: 0 2px 8px #a5c7e630;
+  letter-spacing: 0.2px;
+}
+
+.meniu-cont-arrow {
+  font-size: 16px;
+  margin-left: 7px;
+}
+
+.meniu-dropdown {
+  position: absolute;
+  right: 0;
+  top: 110%;
+  margin-top: 5px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 #a5c7e6a6;
+  padding: 19px 22px;
+  z-index: 201;
+  min-width: 240px;
+  white-space: nowrap;
+}
+
+.meniu-user {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 21px;
+  color: #1976d2;
+  margin-bottom: 10px;
+}
+
+.meniu-email {
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 19px;
+  color: #333;
+  border: 2.5px solid #f4f6f8;
+}
+
+.badge.student {
+  background: #ffe082;
+}
+
+.badge.profesor {
+  background: #ffb74d;
+}
+
+.logout-button {
+  background: #b7d3ef;
+  color: #1976d2;
+  border: none;
+  border-radius: 10px;
+  padding: 9px 22px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+  width: 100%;
+}

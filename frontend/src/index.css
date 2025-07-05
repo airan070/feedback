@@ -1,0 +1,187 @@
+body {
+  background: #e3f0fc;
+  margin: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+.container-dashboard {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.dashboard-header {
+  width: 100vw;
+  height: 0px;
+  position: relative;
+}
+.dashboard-content {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 0;
+}
+.left-panel, .right-panel {
+  background: #fff;
+  border-radius: 32px;
+  padding: 36px 32px 48px 32px;
+  box-shadow: 0 4px 32px #0001;
+  min-height: 600px;
+  min-width: 440px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.activities-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+h1, .feedback-title {
+  font-size: 2.3rem;
+  color: #1976d2;
+  font-weight: 700;
+  margin: 0 0 0 0;
+  min-width: 162px;
+  letter-spacing: 1.1px;
+}
+.meniu-cont-float {
+  position: fixed !important;
+  top: 24px;
+  right: 40px;
+  z-index: 100;
+}
+.add-code-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 18px;
+}
+.input-cod {
+  border: 1.5px solid #b0c4de;
+  border-radius: 9px;
+  font-size: 1.05rem;
+  padding: 8px 14px;
+  outline: none;
+  transition: border .15s;
+  background: #f7fbff;
+}
+.input-cod:focus {
+  border-color: #2986f5;
+}
+.btn-inscriere {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.04rem;
+  padding: 8px 17px;
+  cursor: pointer;
+  transition: background .17s;
+}
+.btn-inscriere:hover {
+  background: #1565c0;
+}
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.activity-item {
+  background: #eaf3ff;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  padding: 13px 20px;
+  font-size: 1.14rem;
+  cursor: pointer;
+  transition: background .16s;
+  outline: none;
+}
+.activity-item:hover, .activity-item.selected {
+  background: #b5d7ff;
+}
+.activity-error {
+  color: #c72222;
+  font-size: 1.08rem;
+  margin-top: 24px;
+  text-align: center;
+}
+.activity-loading {
+  color: #888;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 1.09rem;
+}
+.feedback-header-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.activity-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 12px;
+}
+.activity-title {
+  font-size: 1.21rem;
+  font-weight: 600;
+  color: #1d3e7b;
+  line-height: 1.25;
+}
+.activity-desc {
+  font-size: 1.04rem;
+  color: #666;
+  margin-top: 2px;
+  line-height: 1.18;
+}
+.feedback-emojis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 28px 36px;
+  justify-content: center;
+  margin-top: 32px;
+}
+.emoji-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e3f0fc;
+  border: none;
+  border-radius: 22px;
+  padding: 27px 36px;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0001;
+  transition: box-shadow .17s, background .15s, transform .11s;
+  margin-bottom: 8px;
+}
+.emoji-btn:hover {
+  background: #c9e6fa;
+  box-shadow: 0 4px 16px #0002;
+  transform: scale(1.07);
+}
+.emoji-icon {
+  font-size: 3rem;
+  margin-bottom: 6px;
+}
+.emoji-label {
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: #1976d2;
+  margin-top: 2px;
+}
+
+.notification-msg {
+  margin-top: 18px;
+  padding: 12px 18px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #1976d2;
+  background-color: #daf2e6;
+  box-shadow: 0 0 12px #c4e6cc;
+}
